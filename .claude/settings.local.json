@@ -4,7 +4,11 @@
       "Bash(php artisan *)",
       "Bash(php -r 'require '\\\\''vendor/autoload.php'\\\\''; $dotenv = Dotenv\\\\Dotenv::createImmutable\\('\\\\''.'\\\\''\\); $dotenv->load\\(\\); echo '\\\\''GEMINI_API_KEY='\\\\'' . \\(isset\\($_ENV['\\\\''GEMINI_API_KEY'\\\\'']\\) ? '\\\\''SET \\('\\\\''.strlen\\($_ENV['\\\\''GEMINI_API_KEY'\\\\'']\\).'\\\\'' chars\\)'\\\\'' : '\\\\''NOT SET'\\\\''\\) . PHP_EOL;')",
       "Bash(Get-Content storage/logs/laravel.log -Tail 60)",
-      "Bash(php -l app/Http/Controllers/User/ListKursusController.php)"
+      "Bash(php -l app/Http/Controllers/User/ListKursusController.php)",
+      "Bash(php -l app/Http/Controllers/Admin/ContentController.php)",
+      "Bash(php -l app/Services/GeminiService.php)",
+      "Bash(php -l app/Models/Content.php)",
+      "Bash(php -l app/Models/UserQuizAttempt.php)"
     ]
   }
 }
