@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(net start *)",
+      "Bash(php -l resources/views/admin/module/detail.blade.php)"
+    ]
+  }
+}
